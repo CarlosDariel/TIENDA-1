@@ -1,0 +1,39 @@
+body {
+    padding-top: 80px;
+}
+
+#inicio {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+}
+
+.card {
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+#cartCount {
+    font-size: 18px;
+}
+
+.modal-body input {
+    width: 100%;
+}
+
+.modal-footer .btn {
+    width: 100%;
+}
